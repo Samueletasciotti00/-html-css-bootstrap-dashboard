@@ -5,22 +5,68 @@
     box-sizing: border-box;
 }
 
+.blue{
+    background-color: #1b72e8;
+    /* DEBUG */
+    min-height: 80px;
+}
+
+
 /* DEBUG */
 .debug{
     border: 1px solid red;
 }
 
+.debug-h{
+    min-height: 50px;
+}
+/* NAV BAR SETTINGS */
+.search-bar input{
+    width: 95%;
+}
 
+#navigator img{
+    width: 100%;
+}
 
 
 /* SETTINGS FOR PAGE*/
 
-/* DEBUG NAVBAR*/
-nav .col-12{
-    min-height: 70px;
+/* Background menu */
+#bk-grd{
+    background-color: #f7f7f7;
 }
 
 /* DEBUG LEFT MENU */
-menu .col-2{
+
+/* Left menu */
+#left-menu{
+    background-color: #0c253b;
     height: calc(100vh - 70px);
+}
+
+#left-menu span{
+    bottom: 5px;
+    color: #f7f7f7;
+}
+
+#sets ul li{
+    color: #f7f7f7;
+    list-style: none;
+}
+
+#sets ul{
+    padding-left: 0rem;
+}
+
+#sets ul li i{
+   font-size: 15px;
+   padding-top: 15px;
+}
+
+
+/* Center menu */
+#center .row{
+    
+    
 }
