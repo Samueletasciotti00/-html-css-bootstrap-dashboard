@@ -11,6 +11,10 @@
     min-height: 80px;
 }
 
+.opac{
+    opacity: 0.5;
+}
+
 
 /* DEBUG */
 .debug{
@@ -65,8 +69,8 @@
 }
 
 
-/* Center menu */
-#center .row{
-    
-    
+/* BLUE BAR */
+
+.text-bg-dark{
+    background-color: rgba(0, 0, 0, 0.5);
 }
