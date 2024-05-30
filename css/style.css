@@ -15,6 +15,11 @@
     opacity: 0.5;
 }
 
+.col-12 img{
+    width: 100%;
+}
+
+
 
 /* DEBUG */
 .debug{
@@ -54,7 +59,7 @@
     color: #f7f7f7;
 }
 
-#sets ul li{
+#left-menu ul li{
     color: #f7f7f7;
     list-style: none;
 }
@@ -73,4 +78,15 @@
 
 .text-bg-dark{
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Box of titol of main */
+.boxing{
+    border: 1px solid black;
+    
+}
+
+/* Lists */
+.blkk{
+    list-style: none;
 }
