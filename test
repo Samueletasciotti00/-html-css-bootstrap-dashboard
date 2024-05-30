@@ -1,0 +1,150 @@
+<!-- Nav -->
+                <div class="col-12 debug-h d-flex alingne-content-center">
+
+                    <div class="container-fluid">
+                        <div id="navigator" class="row gy-5 alingne-items-center">
+
+                            <div class="d-none d-sm-none d-md-block col-sm-2 col-md-3 col-xl-1">
+                                 <!-- LOGO -->
+                                    <img src="img 2/logo.svg" alt="">
+                            </div>
+
+                            <div class="d-md-none d-xl-none  col-md-3 col-xl-1">
+                                <!-- LOGO -->
+                                   <img src="img 2/mobile-logo.png" alt="">
+                            </div>
+
+                            
+
+                            <div class=" col-md-6 col-xl-9">
+                                <!-- Search bar -->
+                                <div class="search-bar">
+                                    <i class="fas fa-search"></i>
+                                    <span class="icon">
+                                        <input type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+                                        
+                                    </span>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2 col-md-3 col-xl-2 text-center">
+                                    <!-- icons -->
+                                    <div>
+                                        <!-- menu -->
+                                        <i class="fa-solid fa-list"></i>
+
+                                        <!-- ? -->
+                                        <i class="fa-solid fa-circle-question"></i>
+
+                                        <!-- point -->
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                        <!-- Bell -->
+                                        <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                       
+
+                        
+
+                </div>
+
+
+
+
+                <!-- TABLE TO SWIFT -->
+
+                <div class="container-fluid mt-3 mb-3 ps-0 pe-0">
+                    <div class="row">
+                        <div class="col-12">
+                            
+                            <!-- Heading titol -->
+                            <div class="boxing">
+                              Prossime classi
+                            </div>
+
+                            <!-- Element -->
+                            <div class="container-fluid">
+                                <div class="row boxing">
+
+                                    <!-- Name -->
+                                    <div class="col-2">
+                                        <ul class="blkk">
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 75</li>
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 76</li>
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 77</li>
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 78</li>
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 79</li>
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 80</li>
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 81</li>
+                                            <li><i class="fa-solid fa-code" style="color: #feffff; background-color: #f26551; border-radius: 100%; width: 25px; padding: 4px;"></i> Classe 82</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Data -->
+                                    <div class="offset-2 col-2">
+                                        <ul class="blkk">
+                                            <li>15 Feb 2021</li>
+                                            <li>16 Feb 2021</li>
+                                            <li>17 Feb 2021</li>
+                                            <li>18 Feb 2021</li>
+                                            <li>19 Feb 2021</li>
+                                            <li>20 Feb 2021</li>
+                                            <li>21 Feb 2021</li>
+                                            <li>22 Feb 2021</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- ROI -->
+                                    <div class="col-2">
+                                        <ul class="blkk">
+                                            <li>20%</li>
+                                            <li>20%</li>
+                                            <li>20%</li>
+                                            <li>20%</li>
+                                            <li>20%</li>
+                                            <li>20%</li>
+                                            <li>20%</li>
+                                            <li>20%</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- STATO -->
+                                    <div class="col-2">
+                                        <ul class="blkk">
+                                            <li><span class="badge text-bg-success">Done</span>
+                                            </li>
+                                            <li><span class="badge text-bg-success">Done</span></li>
+                                            <li><span class="badge text-bg-warning">proces</span>
+                                            </li>
+                                            <li><span class="badge text-bg-success">Done</span></li>
+                                            <li><span class="badge text-bg-danger">failed</span>
+                                            </li>
+                                            <li><span class="badge text-bg-success">Done</span></li>
+                                            <li><span class="badge text-bg-danger">failed</span>
+                                            </li>
+                                            <li><span class="badge text-bg-success">Done</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- AZIONI -->
+                                    <div class="col-2">
+                                        <ul class="blkk">
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                            <li><i class="fa-solid fa-pen" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i>  <i class="fa-solid fa-trash-can" style="border: 1px solid gray; padding: 5px; border-radius: 5px;"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>

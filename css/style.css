@@ -90,3 +90,10 @@
 .blkk{
     list-style: none;
 }
+
+
+/* TABLE SETTINGS */
+.table.no-vertical-borders td,.table.no-vertical-borders th {
+    border-left: none;
+    border-right: none;
+}
